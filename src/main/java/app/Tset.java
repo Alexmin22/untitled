@@ -9,6 +9,9 @@ public class Tset {
 
         Start start = context.getBean("start", Start.class);
         start.sayHello();
+        start.sayHello();
+        start.sayHello();
+        start.sayHello();
 
         context.close();
     }
